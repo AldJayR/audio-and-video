@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Select</title>
 </head>
 <body>
+    <div class="container">
+        <input type="radio" name="slider" id="s1">
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3">
+        <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+
+        <div class="cards">
+
+            <!-- CARD 1 -->
+
+            <label for="s1" id="slide1">
+                <div class="card">
+                    <div class="image">
+                        <img src="static/can't-stop-me.jpg" alt="Album cover of Can't Stop Me">
+                    </div>
+                    <div class="infos">
+                        <span class="name">I Can't Stop Me</span>
+                        <span class="artist">TWICE</span>
+
+                        <audio controls>
+                            <source src="static/I CAN'T STOP ME.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+
+            </label>
+
+            <!-- CARD 2 -->
+
+            <label for="s2" id="slide2">
+                <div class="card">
+                    <div class="image">
+                        <img src="static/doughnut.jpg" alt="Album cover of Doughnut">
+                    </div>
+                    <div class="infos">
+                        <span class="name">Doughnut</span>
+                        <span class="artist">TWICE</span>
+
+                        <audio controls>
+                            <source src="static/Doughnut.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+
+            </label>
+            
+        </div>
+    </div>
     
 </body>
 </html>
